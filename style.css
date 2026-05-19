@@ -541,3 +541,32 @@ body {
   .contact-grid { grid-template-columns: 1fr; }
   .hero-title { font-size: 3.5rem; }
 }
+
+/* ===== UPDATED FOOTER CREDIT ===== */
+.footer-credit {
+  margin-top: 1.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(204,0,0,0.2);
+  font-size: 0.9rem;
+  color: var(--text-dim);
+}
+.credit-name {
+  color: var(--gold);
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  margin: 0 6px;
+  text-shadow: 0 0 20px rgba(212,160,23,0.4);
+}
+.credit-badge {
+  display: inline-block;
+  background: rgba(204,0,0,0.12);
+  border: 1px solid rgba(204,0,0,0.3);
+  color: var(--red-bright);
+  padding: 2px 12px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-top: 6px;
+  margin-right: 6px;
+}
